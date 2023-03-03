@@ -1,0 +1,16 @@
+.droppableContainer{
+    width: 65%;
+    /* flex-grow: 1; */
+    height:100%;
+    min-height: 100px;
+    border: 2px dashed #333;
+    padding: 12px;
+}
+
+@media screen and (max-width: 1000px){
+    .droppableContainer{
+        width: 100%;
+        flex-grow: 1;
+
+    }
+}

@@ -1,0 +1,42 @@
+.container{
+    grid-row: 1/span 2;
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #333;
+    border-radius: 7px;
+
+    align-self: stretch;
+    justify-self: stretch;
+    height: auto;
+    padding: 24px;
+    margin: 12px;
+}
+
+@media screen and (max-width: 1000px){
+    .container{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+}
+@media screen and (max-width: 700px){
+    .container{
+        margin: 12px 0;
+    }
+}
+
+.valueContainer{
+    display: flex;
+    gap: 12px;
+    margin-left: auto;
+}
+
+.valueHolder{
+    color: #333;
+    border-radius: 5px;
+    font-size: 14px;
+}
+

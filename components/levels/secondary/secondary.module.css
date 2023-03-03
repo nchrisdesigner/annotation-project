@@ -1,0 +1,44 @@
+.container{
+    grid-row: 1/span 2;
+
+    display: flex;
+    width: 100%;
+    /* flex-basis: 200px; */
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #333;
+    border-radius: 7px;
+    padding: 24px;
+    margin: 12px;
+
+    align-self: stretch;
+    justify-self: stretch;
+    height: auto;
+}
+@media screen and (max-width: 1000px){
+    .container{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+}
+@media screen and (max-width: 700px){
+    .container{
+        margin: 12px 0;
+    }
+}
+
+.valueContainer{
+    display: flex;
+    gap: 12px;
+    border: 2px dashed #333;
+    margin-left: auto;
+    /* width: 400px;
+    height: 100px; */
+}
+
+.valueHolder{
+    color: #333;
+    border-radius: 5px;
+    font-size: 14px;
+}

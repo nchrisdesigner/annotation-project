@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.primaryHeadline{
+    color: #333;
+    font-size: 32px;
+}
+
+.text{
+    color: #999;
+    font-size: 16px;
+    max-width: 1100px;
+    margin-bottom: 12px;
+}
+
+.btn{
+    padding: 12px 32px;
+    width: 200px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background:#fff;
+}

@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.primaryHeadline{
+    color: #333;
+    font-size: 32px;
+}
+
+.secondaryHeadline{
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+
+.btn{
+    padding: 12px 32px;
+    width: 180px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #333;
+    background:#fff;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 40px;
+}
